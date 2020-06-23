@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VideoDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VideoDemo
+	pod 'youtube-ios-player-helper'
+
+
+  target 'VideoDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'VideoDemoUITests' do
+    # Pods for testing
+  end
+
+end
